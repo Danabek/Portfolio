@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fafe89b7.chunk.css",
+    "main.js": "/portfolio/static/js/main.e7de09a3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e7de09a3.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/css/2.764ccc25.chunk.css": "/portfolio/static/css/2.764ccc25.chunk.css",
+    "static/js/2.1d50aafd.chunk.js": "/portfolio/static/js/2.1d50aafd.chunk.js",
+    "static/js/2.1d50aafd.chunk.js.map": "/portfolio/static/js/2.1d50aafd.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.389f6d7a3946899835ee543fd55ef968.js": "/portfolio/precache-manifest.389f6d7a3946899835ee543fd55ef968.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.fafe89b7.chunk.css.map": "/portfolio/static/css/main.fafe89b7.chunk.css.map",
+    "static/media/Almatinka.jpg": "/portfolio/static/media/Almatinka.fb8e72ea.jpg",
+    "static/media/LinkedIn-icon.png": "/portfolio/static/media/LinkedIn-icon.4f86ef12.png",
+    "static/media/App.css": "/portfolio/static/media/Roboto.5673da52.ttf",
+    "static/media/hh-logo.png": "/portfolio/static/media/hh-logo.392c69bd.png",
+    "static/media/me2.png": "/portfolio/static/media/me2.9fe9f08d.png"
+  }
+}
