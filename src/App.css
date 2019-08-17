@@ -1,33 +1,338 @@
-.App {
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto.ttf);
+}
+
+
+.show {
+  overflow: hidden;
+  height: 100%;
+}
+ul {
+  padding: 25px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto";
+  height: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+span {
+  color: #15EDD6;
+}
+
+main {
+  height: 100%
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10 25px;
+}
+
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.navbar > ul > a {
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+.navbar > ul > a:last-child {
+  margin: 0;
+}
+
+.navbar > ul > a:focus {
+  font-weight: bold;
+}
+
+.logo {}
+
+.logo > a > h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.mainTitle {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: calc(100vh - 104px);
+}
+
+.mainTitle > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.mainTitle > div {
   text-align: center;
+  z-index: 0
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.spacer {
+  flex: 1;
 }
 
-.App-header {
-  background-color: #282c34;
+nav {
+  background-color: #f4f4f4;
+}
+
+nav > ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  margin-right: 25px;
+  list-style: none;
+}
+
+.Works {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  padding: 25px;
+  grid-gap: 1em;
   min-height: 100vh;
+}
+
+.Work {
+  height: 100%;
+  box-shadow: 1px 1px 20px 0px #cecece;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 7px;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Work:hover{
+  box-shadow: 1px 1px 3px 0px #dedede;
+}
+
+footer {
+  background-color: #f4f4f4;
+}
+
+footer > nav > ul {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > nav > ul::after{
+  display: inline-block;
+  margin-left: 25px;
+  content: '';
+  width: 50px;
+  border-top: 2px solid black;
+  padding: 0 40px;
+
+}
+
+footer > nav > ul::before{
+  display: inline-block;
+  content: '';
+  width: 50px;
+  border-top: 2px solid black;
+  margin-right: 25px;
+  padding: 0 40px;
+}
+
+.layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c5ccd68c;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.burger-menu {
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25px;
+  width: 28px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  z-index: 222;
+}
+
+.burger-menu:focus {
+  outline: none;
+}
+
+.burger-menu__line {
+  width: 30px;
+  height: 2.5px;
+  background: aqua;
+
+}
+
+.modul-menu {
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modul-menu > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 20px;
+  height: 80%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.modul-menu > ul > a {
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+}
+
+.about {
+  display: grid;
+  grid-template: 1fr / 1fr 3fr
+}
+
+.about > aside {
+  padding: 15px
+}
+
+
+
+.about > section {
+  padding: 15px
+}
+
+
+
+
+
+.avatar > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.buttonCategories{
+  padding: 16px;
+}
+
+.buttonCategories > button:focus {
+  font-weight: bolder;
+}
+
+.Social {
+  background: transparent;
+
+}
+
+
+.Social > ul > li > a > img {
+  opacity: .7;
+}
+.Social > ul > li > a > img:hover {
+  opacity: 1
+}
+
+.main-text > h1 {
+  font-size: 4em;
+}
+
+.main-text > div {
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.Contacts {
+  display: grid;
+  grid-template: 1fr / 1fr 3fr;
+  padding: 5px 5px;
+}
+
+.Contacts > div {
+  padding: 5px;
+}
+
+.Contacts > div > div > h4 {
+  margin: 16px 0;
+}
+
+.basement {
+  background-color: #4a4a4a;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.basement > p {
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right {
+  display: grid;
+  grid-template: 1fr / repeat(auto-fit, minmax(250px, 1fr))
 }
