@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.03dd415b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9d9b5afa.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9d9b5afa.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.ce0938c5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2a63ec68.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2a63ec68.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
     "static/css/2.764ccc25.chunk.css": "/Portfolio/static/css/2.764ccc25.chunk.css",
-    "static/js/2.e67429cf.chunk.js": "/Portfolio/static/js/2.e67429cf.chunk.js",
-    "static/js/2.e67429cf.chunk.js.map": "/Portfolio/static/js/2.e67429cf.chunk.js.map",
+    "static/js/2.527ffeff.chunk.js": "/Portfolio/static/js/2.527ffeff.chunk.js",
+    "static/js/2.527ffeff.chunk.js.map": "/Portfolio/static/js/2.527ffeff.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.44b9e893c9c953cef253b477f9a13e45.js": "/Portfolio/precache-manifest.44b9e893c9c953cef253b477f9a13e45.js",
+    "precache-manifest.1b3e5cfba348c68c9bbf9ce13000af88.js": "/Portfolio/precache-manifest.1b3e5cfba348c68c9bbf9ce13000af88.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/Portfolio/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.03dd415b.chunk.css.map": "/Portfolio/static/css/main.03dd415b.chunk.css.map",
+    "static/css/main.ce0938c5.chunk.css.map": "/Portfolio/static/css/main.ce0938c5.chunk.css.map",
     "static/media/Almatinka.jpg": "/Portfolio/static/media/Almatinka.fb8e72ea.jpg",
-    "static/media/LinkedIn-icon.png": "/Portfolio/static/media/LinkedIn-icon.4f86ef12.png",
     "static/media/App.css": "/Portfolio/static/media/Roboto.5673da52.ttf",
-    "static/media/hh-logo.png": "/Portfolio/static/media/hh-logo.392c69bd.png",
+    "static/media/bg.PNG": "/Portfolio/static/media/bg.d12e39b1.PNG",
     "static/media/me2.png": "/Portfolio/static/media/me2.9fe9f08d.png"
   }
 }
